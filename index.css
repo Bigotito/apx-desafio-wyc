@@ -1,0 +1,12 @@
+body {
+    background-color: #13171C;
+
+    margin: 0;
+}
+
+@media (min-width: 960px){
+    .header {
+        padding: 0 82px 11px 82px;
+        border-bottom: 1px solid rgba(238, 238, 238, 0.10);
+    }
+}
