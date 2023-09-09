@@ -1,0 +1,13 @@
+. Etapa 1: Diseño
+    . Diseño componente header. OK
+        . Diseño base header mobile. OK
+        . Diseño base header desktop. OK
+        . Diseño menu desplegable. OK
+        . Implementacion .css
+            . Implementacion instanciacion de componente
+            . Implementacion funcion abrir click de menu desplegable.
+            . Implementacion funcion cerrar click de menu desplegable.
+            . Adquirir icono de contentful
+                . Ultimo agregado
+            . Implementacion animacion?
+    
