@@ -1,5 +1,8 @@
 function main(){
-    addHeader(document.querySelector(".header"));
+    addHeader(
+        document.querySelector(".header"),
+        document.querySelector(".cuadrado-rojo")
+    );
 }
 
 main();

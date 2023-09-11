@@ -4,9 +4,12 @@
         . Diseño base header desktop. OK
         . Diseño menu desplegable. OK
         . Implementacion .css
-            . Implementacion instanciacion de componente
-            . Implementacion funcion abrir click de menu desplegable.
-            . Implementacion funcion cerrar click de menu desplegable.
+            . Implementacion instanciacion de componente OK
+            . Implementacion funcion abrir click de menu desplegable. OK
+            . Implementacion funcion cerrar click de menu desplegable. OK
+            . Implementacion funcion Portfolio.
+            . Implementacion funcion Servicios.
+            . Implementacion funcion Contacto.
             . Adquirir icono de contentful
                 . Ultimo agregado
             . Implementacion animacion?
