@@ -36,18 +36,13 @@ function addHeader(toElement, elementToHide = null){
         </div>
     `;
 
-    const mainPageLogo = newHeader.querySelector(".header-principal__logo-cont__img");
-
-    mainPageLogo.addEventListener('click', () => {
+    newHeader.querySelector(".header-principal__logo-cont__img").addEventListener('click', () => {
         window.location.replace("./");
     });
 
-    const openButton = newHeader.querySelector(".header-principal__menu-img");
-    const closeButton = newHeader.querySelector(".header-principal__menu-completo-mobile__boton-cerrar");
-
     const menuExtendido = newHeader.querySelector(".header-principal__menu-completo-mobile");
 
-    openButton.addEventListener('click', () => {
+    newHeader.querySelector(".header-principal__menu-img").addEventListener('click', () => {
         menuExtendido.classList.add("active-menu");
 
         if(elementToHide != null) {
@@ -55,7 +50,7 @@ function addHeader(toElement, elementToHide = null){
         }
     });
 
-    closeButton.addEventListener('click', () => {
+    newHeader.querySelector(".header-principal__menu-completo-mobile__boton-cerrar").addEventListener('click', () => {
         menuExtendido.classList.remove("active-menu");
 
         if(elementToHide != null) {
@@ -63,36 +58,27 @@ function addHeader(toElement, elementToHide = null){
         }
     });
 
-    const portfolioButton1 = newHeader.querySelector(".header-principal__menu-extendido__portfolio");
-    const portfolioButton2 = newHeader.querySelector(".header-principal__menu-completo-mobile__portfolio");
-
-    portfolioButton1.addEventListener('click', () => {
+    newHeader.querySelector(".header-principal__menu-extendido__portfolio").addEventListener('click', () => {
         window.location.replace("./portfolio.html");
     });
     
-    portfolioButton2.addEventListener('click', () => {
+    newHeader.querySelector(".header-principal__menu-completo-mobile__portfolio").addEventListener('click', () => {
         window.location.replace("./portfolio.html");
     });
 
-    const serviciosButton1 = newHeader.querySelector(".header-principal__menu-extendido__servicios");
-    const serviciosButton2 = newHeader.querySelector(".header-principal__menu-completo-mobile__servicios");
-
-    serviciosButton1.addEventListener('click', () => {
+    newHeader.querySelector(".header-principal__menu-extendido__servicios").addEventListener('click', () => {
         window.location.replace("./servicios.html");
     });
     
-    serviciosButton2.addEventListener('click', () => {
+    newHeader.querySelector(".header-principal__menu-completo-mobile__servicios").addEventListener('click', () => {
         window.location.replace("./servicios.html");
     });
 
-    const contactoButton1 = newHeader.querySelector(".header-principal__menu-extendido__contacto");
-    const contactoButton2 = newHeader.querySelector(".header-principal__menu-completo-mobile__contacto");
-
-    contactoButton1.addEventListener('click', () => {
+    newHeader.querySelector(".header-principal__menu-extendido__contacto").addEventListener('click', () => {
         window.location.replace("./contacto.html");
     });
     
-    contactoButton2.addEventListener('click', () => {
+    newHeader.querySelector(".header-principal__menu-completo-mobile__contacto").addEventListener('click', () => {
         window.location.replace("./contacto.html");
     });
 
