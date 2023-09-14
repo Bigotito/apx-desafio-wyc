@@ -3,6 +3,8 @@ function main(){
         document.querySelector(".header"),
         document.querySelector(".cuadrado-rojo")
     );
+    
+    addFooter(document.querySelector("footer"));
 }
 
 main();
