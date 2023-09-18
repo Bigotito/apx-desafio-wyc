@@ -11,6 +11,7 @@
     <script defer src="./footer/index.js"></script>
 
     <link rel="stylesheet" href="./contact-form/index.css">
+    <script defer src="./contact-form/index.js"></script>
     
     <script defer src="./scripts/index.js"></script>
 
@@ -21,11 +22,11 @@
 <body>
     <header>
     </header>
-
+    
     <div class="contact-form">
         <div class="contact-form-cont">
             <h1>Escribime</h1>
-            <form action="" class="contact-form-cont__form">
+            <form class="contact-form-cont__form">
                 <label>
                     <p>Nombre</p>
                     <input type="text" name="nombre" placeholder="Tu nombre">
@@ -38,6 +39,10 @@
                     <p>Mensaje</p>
                     <input type="textarea" name="mensaje" class="contact-form-cont__form__textarea">
                 </label>
+                <div class="contact-form-cont__form__boton-enviar">
+                    <span>Enviar</span>
+                    <img src="./contact-form/img/send.svg" alt="">
+                </div>
             </form>
         </div>
     </div>

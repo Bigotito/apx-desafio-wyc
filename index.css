@@ -7,7 +7,7 @@ body {
 }
 
 @media (min-width: 960px){
-    .header {
+    header {
         padding: 0 82px 11px 82px;
         border-bottom: 1px solid rgba(238, 238, 238, 0.10);
     }

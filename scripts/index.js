@@ -5,6 +5,8 @@ function main(){
     );
     
     addFooter(document.querySelector("footer"));
+
+    testAt();
 }
 
 main();
