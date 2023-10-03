@@ -102,19 +102,25 @@
 
 @media (min-width: 960px){
     .contact-form-cont__form input {
-        width: 100%;
+        margin-bottom: 0;
+
+        width: calc(100% - 48px);
     }
 }
 
-.contact-form-cont__form input.contact-form-cont__form__textarea {
+.contact-form-cont__form .contact-form-cont__form__label-textarea input {
     margin-bottom: 25px;
     
     height: 248px;
 }
 
 @media (min-width: 960px){
-    .contact-form-cont__form input.contact-form-cont__form__textarea {
+    .contact-form-cont__form .contact-form-cont__form__label-textarea {
         width: 360px;
+    }
+
+    .contact-form-cont__form .contact-form-cont__form__label-textarea input {
+        width: calc(100% - 48px);
 
         flex-grow: 1;
     }
