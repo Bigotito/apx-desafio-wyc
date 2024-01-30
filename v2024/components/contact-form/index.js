@@ -6,14 +6,16 @@ function parseForm(recibido){
     console.log("recibido: ", resultado2);
 }
 
-function testAt(){
-    const el1 = document.querySelector(".contact-form-cont__form");
+function contactForm__main(){
+    const botonEnviar = document.querySelector(".contact-form-cont__form__boton-enviar");
+    const formAEnviar = document.querySelector(".contact-form-cont__form");
 
-    const el2 = document.querySelector(".contact-form-cont h1");
-
-    el1.addEventListener('submit', parseForm);
-
-    el2.addEventListener('click', ()=>{
-        el1.requestSubmit();
+    botonEnviar.addEventListener('click', () => {
+        formAEnviar.requestSubmit();
     });
+
+    formAEnviar.addEventListener('submit', parseForm);
+
 }
+
+contactForm__main();

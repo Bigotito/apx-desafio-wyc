@@ -81,34 +81,32 @@
     margin: 0 0 10px 0;
 }
 
-.contact-form-cont__form input {
+.contact-form-cont__form .input-form {
     margin-bottom: 30px;
-
     width: 265px;
     height: 27px;
-
     padding: 16px 24px;
-
     border-style: none;
     border-radius: 16px;
     background: rgba(57, 62, 70, 0.50);
-
     color: #FFF;
     font-family: 'Poppins';
     font-style: normal;
     font-size: 18px;
     font-weight: 700;
+
+    resize: none;
 }
 
 @media (min-width: 960px){
-    .contact-form-cont__form input {
+    .contact-form-cont__form .input-form {
         margin-bottom: 0;
 
         width: calc(100% - 48px);
     }
 }
 
-.contact-form-cont__form .contact-form-cont__form__label-textarea input {
+.contact-form-cont__form .contact-form-cont__form__label-textarea .input-form {
     margin-bottom: 25px;
     
     height: 248px;
@@ -119,7 +117,7 @@
         width: 360px;
     }
 
-    .contact-form-cont__form .contact-form-cont__form__label-textarea input {
+    .contact-form-cont__form .contact-form-cont__form__label-textarea .input-form {
         width: calc(100% - 48px);
 
         flex-grow: 1;
